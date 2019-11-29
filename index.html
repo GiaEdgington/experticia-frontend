@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Experticia Prevencion</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<link href="stylesheet.css" rel="stylesheet" media="all">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="../images/experticiaLogo.jpg" width="150px" class="d-inline-block align-top" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Noticias</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+            <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img src="../images/workers.jpg" style="width:100%">
+                      <div class="text">Peritaje en Prevencion <br>de Riesgos Laborales</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="../images/doctor.jpg" style="width:100%">
+                      <div class="text">Higiene Industrial<br>Seguridad Laboral<br>Ergonomia y Psicologia Aplicada<br>Medicina y Enfermeria del Trabajo</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="../images/corporation.jpg" style="width:100%">
+                      <div class="text">Asistencia en casos de:<br>Accidentes de Trabajo<br>Enfermedades Profesionales<br>Incapacidad Laboral</div>
+                    </div>
+                    
+            </div>
+
+            <div class="process">
+                    <div class="d-flex justify-content-center flex-row flex-wrap bd-highlight mb-4">
+                            <figure class="p-2 bd-highlight">
+                                <img src="../images/icons/viable.png" alt="">
+                                <figcaption class="text3">Estudio de viabilidad<br>del caso</figcaption>
+                            </figure>
+                            <figure class="p-2 bd-highlight">
+                                <img src="../images/icons/budget.png" alt="">
+                                <figcaption class="text3">Presupuesto</figcaption>
+                            </figure>
+                            <figure class="p-2 bd-highlight">
+                                <img src="../images/icons/report.png" alt="">
+                                <figcaption class="text3">Entrega de <br>Informe Pericial</figcaption>
+                            </figure>
+                            <figure class="p-2 bd-highlight">
+                                <img src="../images/icons/justice.png" alt="">
+                                <figcaption class="text3">Asistencia a Juicio y<br>Defensa Informe Pericias</figcaption>
+                            </figure>
+                    </div>
+
+            </div>
+
+            <h1>¿Por qué EXPERTICIA?</h1>
+                <hr>
+            <div id="nosotros">
+                <p>En experticia creemos en lugares de trabajo seguros y saludables, por eso contribuimos siendo un gran apoyo en los momentos más difíciles. Nos apasiona nuestro trabajo y estamos comprometidos con un servicio de alta calidad y resultados óptimos, porque el éxito de nuestros clientes es el nuestro.<br>Nuestro equipo esta formado por médicos y enfermeros del trabajo especializados en peritaje y valoración del daño corporal, técnicos en prevención especialistas en seguridad laboral, higiene industrial y ergonomia y psicosociología aplicada.<br>
+                <strong>Nuestros valores:</strong><br>ética de trabajo, integridad, pasión, calidad, independencia, compromiso y responsabilidad.<br>
+                <strong>Nuestra Misión:</strong><br>Ayudar a encontrar la verdad y contribuir a que los lugares de trabajo sean seguros y saludables.<br>
+                <strong>Nuestra Visión:</strong><br>Ser referencia en peritaje en PRL.</p>
+            </div>
+    
+    </main>
+
+
+    <footer>
+        
+    </footer>
+  </div>
+</body>
+<script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            } 
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+            }
+        </script>
+
+</html>

@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+}
+
+a {
+    color: black;
+}
+
+ul {
+  position: absolute;
+  bottom: 0;
+}
+
+.process {
+ width: 70%;
+ margin: 0 auto;
+}
+
+figure {
+
+}
+
+.process img {
+  margin: 2em 4em 0;
+}
+
+.text3 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em auto;
+}
+
+#nosotros {
+  font-size: 1.25em;
+  column-count: 2;
+  margin: 0 2em;
+  text-align: justify;
+}
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    line-height: 1.2em;
+    padding: 8px 12px;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    width: 100%;
+    height: 70%;
+    text-align: left;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On larger screens, increase text size */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .text {font-size: 30px}
+    .process img {width: 50px}
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .text {font-size: 40px}
+    .process img {width: 60px}
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .text {font-size: 55px}
+    .process img {width: 60px}
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .text {font-size: 70px}
+    .process img {width: 60px}
+  }
+  
+  @media screen and (max-width: 700px) {
+
+    #nosotros {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+    }
+  }
+
+  footer {
+      
+  }
