@@ -17,10 +17,6 @@ ul {
  margin: 0 auto;
 }
 
-figure {
-
-}
-
 .process img {
   margin: 2em 4em 0;
 }
@@ -31,16 +27,30 @@ figure {
 
 h1 {
   text-align: center;
-  margin: 1em auto;
+  margin: 1em auto 0;
 }
 
 #nosotros {
   font-size: 1.25em;
   column-count: 2;
-  margin: 0 2em;
+  column-gap: 3em;
+  margin: 0 3em;
   text-align: justify;
 }
 
+#nosotros p {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+}
+
+#about {
+  margin: 3em 3em 0;
+  font-size: 1.25em;
+}
+h3 {
+  margin: 0;
+}
 * {box-sizing: border-box;}
 
 .mySlides {display: none;}
@@ -113,8 +123,4 @@ img {vertical-align: middle;}
       -moz-column-count: 1;
       column-count: 1;
     }
-  }
-
-  footer {
-      
   }
