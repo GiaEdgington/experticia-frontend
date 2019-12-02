@@ -10,6 +10,10 @@ a {
     color: black;
 }
 
+input, textarea {
+  outline: none;
+}
+
 .process {
  width: 70%;
  margin: 0 auto;
@@ -50,6 +54,30 @@ h1 {
 #services {
   margin: 3em 3em 0;
   font-size: 1.1em;
+}
+
+#contact {
+  width: 75%;
+  padding: 3em;
+  font-size: .85em;
+}
+#contact input {
+  padding: .5em;
+  width: 25%;
+}
+
+#contact textarea {
+  width: 85%;
+  padding: .5em;
+  height: 10em;
+  margin: 1em 0 .25em;
+}
+
+#contact button {
+  padding: .5em 2em;
+  background-color: #1ab687;
+  color: white;
+  font-weight: bold;
 }
 
 h3 {
