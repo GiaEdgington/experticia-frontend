@@ -9,8 +9,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <link href="stylesheet.css" rel="stylesheet" media="all">
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                   <a class="nav-link" href="#services">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Noticias</a>
@@ -123,7 +123,7 @@
                     </div>
                     <input type="date" value="02-12-19" placeholder="Fecha"></input>
                     <button>ENVIAR</button>
-            </form>
+               </form>
             </div>
     </main>
     <footer>
@@ -131,22 +131,5 @@
     </footer>
   </div>
 </body>
-<script>
-        var slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            } 
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-            slides[slideIndex-1].style.display = "block";  
-            setTimeout(showSlides, 3000); // Change image every 2 seconds
-            }
-        </script>
 
 </html>
