@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var phone = document.querySelector(".phone");
     var description = document.querySelector(".description");
     var date = document.querySelector(".date");
+    var submited = document.querySelector(".submited");
     var slideIndex = 0;
     showSlides();
 
@@ -26,7 +27,9 @@ document.addEventListener('DOMContentLoaded', function(){
             })
         })
         .then(response => response.json())
-        .then(console.log())
+        .then(response => {
+            submited.innerText = "Información enviada."
+        })
     })
     
     function showSlides() {
@@ -41,7 +44,5 @@ document.addEventListener('DOMContentLoaded', function(){
         slides[slideIndex-1].style.display = "block";  
         setTimeout(showSlides, 3000); // Change image every 2 seconds
     }
-
-    
 
 })
