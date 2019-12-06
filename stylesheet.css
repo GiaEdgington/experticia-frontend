@@ -2,8 +2,13 @@ html, body {
     height: auto;
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #f8f8f8;
+  font-size: 1.2em;
+}
+
+header {
+  margin-top: 3em;
 }
 
 a {
@@ -33,7 +38,6 @@ h1 {
 }
 
 #nosotros {
-  font-size: 1.1em;
   column-count: 2;
   column-gap: 3em;
   margin: 0 3em;
@@ -48,33 +52,40 @@ h1 {
 
 #about {
   margin: 3em 3em 0;
-  font-size: 1.1em;
 }
 
 #services {
   margin: 3em 3em 0;
-  font-size: 1.1em;
 }
 
 #contact {
-  width: 75%;
+  width: 100%;
   padding: 3em;
-  font-size: .85em;
+  font-size: 1em;
 }
+
 #contact input {
-  padding: .5em;
+  border: none;
+  padding: 1em;
   width: 25%;
+  margin: 0;
+}
+
+#contact form {
+  width: 70%;
+  margin: 0 auto;
 }
 
 #contact textarea {
-  width: 85%;
-  padding: .5em;
-  height: 10em;
+  border: none;
+  width: 100%;
+  padding: 1em;
+  height: 12em;
   margin: 1em 0 .25em;
 }
 
 #contact button {
-  padding: .5em 2em;
+  padding: 1em 2.5em;
   background-color: #1ab687;
   color: white;
   font-weight: bold;
