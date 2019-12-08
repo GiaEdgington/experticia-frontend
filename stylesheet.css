@@ -2,8 +2,8 @@ html, body {
     height: auto;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
   background-color: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
 }
 
@@ -17,6 +17,16 @@ a {
 
 input, textarea {
   outline: none;
+}
+
+.navbar-brand {
+  margin-right: 2.5em;
+}
+
+.nav-item{
+  font-size: .9em;
+  font-weight: bolder;
+  margin-bottom: -9em;
 }
 
 .process {
@@ -42,19 +52,34 @@ h1 {
   column-gap: 3em;
   margin: 0 3em;
   text-align: justify;
+  line-height: 2em;
 }
 
-#nosotros p {
+#nosotros .experticia {
+  line-height: 2em;
   -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
   page-break-inside: avoid; /* Firefox */
   break-inside: avoid; /* IE 10+ */
 }
 
+#nosotros section {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 #about {
+  line-height: 2em;
   margin: 3em 3em 0;
 }
 
 #services {
+  line-height: 2em;
   margin: 3em 3em 0;
 }
 
