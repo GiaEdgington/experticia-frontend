@@ -29,17 +29,27 @@ input, textarea {
   margin-bottom: -9em;
 }
 
-.process {
- width: 70%;
- margin: 0 auto;
+main {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
-.process img {
-  margin: 2em 4em 0;
+.process {
+ width: 70%;
+ margin: 3em auto;
+}
+
+.process figure {
+  text-align: center;
+  margin: 0 1em;
+}
+.process figure img {
+  max-width: 60px;
 }
 
 .text3 {
   text-align: center;
+  font-size: .8em;
 }
 
 h1 {
@@ -86,18 +96,18 @@ h4 {
 #contact {
   width: 100%;
   padding: 3em;
-  font-size: 1em;
+  font-size: .8em;
 }
 
 #contact input {
   border: none;
   padding: 1em;
-  width: 25%;
+  width: 30%;
   margin: 0;
 }
 
 #contact form {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
