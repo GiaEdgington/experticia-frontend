@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', function(){
     var description = document.querySelector(".description");
     var date = document.querySelector(".date");
     var submited = document.querySelector(".submited");
+    var validate = document.querySelector(".errors");
     var slideIndex = 0;
     showSlides();
 
-    submitForm.addEventListener('click', function(){
+    submitForm.addEventListener('click', function(e){
         
         fetch('http://localhost:3000/contact', {
             method: 'POST',
@@ -28,7 +29,11 @@ document.addEventListener('DOMContentLoaded', function(){
         })
         .then(response => response.json())
         .then(response => {
-            submited.innerText = "Información enviada."
+            if(response.errors) {
+                validate.innerHTML = response.errors[0].msg
+            } else {
+                submited.innerText = "Información enviada."
+            }      
         })
     })
     
