@@ -121,15 +121,16 @@
             <div id="contact">
                 <h3>Contáctanos</h3>
                 <hr>
-                <form>
-                    <input type="text" class="name" autoComplete="off" placeholder="Nombre"></input>
-                    <input type="text" class="email" autoComplete="off" placeholder="Email"></input>
-                    <input type="text" class="phone" autoComplete="off" placeholder="Teléfono"></input><br/>
+                <div class='errors'></div>
+                <form novalidate>
+                    <input type="text" name="name" class="name" autoComplete="off" placeholder="Nombre"></input>
+                    <input type="email" name= "email" class="email" autoComplete="off" placeholder="Email"></input>
+                    <input type="tel" name="phone" class="phone" autoComplete="off" placeholder="000-000-0000"></input><br/>
                     <div>
-                      <textarea class="description" placeholder="Descripción Caso"></textarea>
+                      <textarea class="description" name="case" placeholder="Descripción Caso"></textarea>
                     </div>
                     <input type="date" class="date" value="02-12-19" placeholder="Fecha"></input>
-                    <button class="submit">ENVIAR</button>
+                    <button class="submit" type="button">ENVIAR</button>
                </form>
                <p class="submited"></p>
             </div>
