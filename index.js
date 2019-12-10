@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     submitForm.addEventListener('click', function(e){
         
-        fetch('http://localhost:3000/contacts', {
+        fetch('https://experticia.herokuapp.com/contacts', {
             method: 'POST',
             headers: {
                 "Content-type": "application/json",
