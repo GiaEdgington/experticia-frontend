@@ -153,10 +153,26 @@ h4 {
   background-color: #7be271;
 }
 
-
 h3 {
   margin: 0;
+  letter-spacing: -1px;
 }
+
+footer {
+  height: 3em;
+  width: 100%;
+  background-color: #48f5c1;
+}
+
+footer span {
+  color: white;
+  font-size: .8em;
+  line-height: 4em;
+  margin-left: 10em;
+  font-weight: bold;
+}
+
+
 * {box-sizing: border-box;}
 
 .mySlides {display: none;}
