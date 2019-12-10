@@ -29,8 +29,13 @@ document.addEventListener('DOMContentLoaded', function(){
         })
         .then(response => response.json())
         .then(response => {
+            //console.log(response.errors);
             if(response.errors) {
-                validate.innerHTML = response.errors[0].msg
+                response.errors.forEach(error => {
+                    let displayError = document.querySelector(`#${error.param}`);
+                    displayError.innerHTML = error.msg;
+                    displayError.style.visibility = 'visible';
+                })
             } else {
                 submited.innerText = "Información enviada."
             }      

@@ -121,14 +121,23 @@
             <div id="contact">
                 <h3>Contáctanos</h3>
                 <hr>
-                <div class='errors'></div>
                 <form novalidate>
+                  <div class="error">
                     <input type="text" name="name" class="name" autoComplete="off" placeholder="Nombre"></input>
+                    <span id="name">Validation message here</span>
+                  </div>
+                  <div class="error">
                     <input type="email" name= "email" class="email" autoComplete="off" placeholder="Email"></input>
-                    <input type="tel" name="phone" class="phone" autoComplete="off" placeholder="000-000-0000"></input><br/>
-                    <div>
-                      <textarea class="description" name="case" placeholder="Descripción Caso"></textarea>
-                    </div>
+                    <span id="email">Validation message here</span>
+                  </div>
+                  <div class="error">
+                    <input type="tel" name="phone" class="phone" autoComplete="off" placeholder="000-000-0000"></input>
+                    <span id="phone">Validation message here</span>
+                  </div>
+                  <div>
+                    <textarea class="description" name="case" placeholder="Descripción Caso"></textarea>
+                    <!-- <span id="case">Validation message here</span> -->
+                  </div>
                     <input type="date" class="date" value="02-12-19" placeholder="Fecha"></input>
                     <button class="submit" type="button">ENVIAR</button>
                </form>
