@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     submitForm.addEventListener('click', function(e){
         
-        fetch('http://localhost:3000/contact', {
+        fetch('http://localhost:3000/contacts', {
             method: 'POST',
             headers: {
                 "Content-type": "application/json",
@@ -23,8 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 name: name.value,
                 email: email.value,
                 phone: phone.value,
-                case: description.value,
-                date: date.value
+                case: description.value
             })
         })
         .then(response => response.json())
