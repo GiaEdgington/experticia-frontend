@@ -41,7 +41,7 @@ main {
 }
 
 .process {
- width: 70%;
+ width: 100%;
  margin: 3em auto;
 }
 
@@ -148,7 +148,7 @@ h4 {
 #contact button {
   padding: 1em 2.5em;
   margin: 0 2em 1em 0;
-  background-color: #48f5c1;
+  background-color: #05B587;
   letter-spacing: 3px;
   color: white;
   font-weight: bold;
@@ -156,7 +156,7 @@ h4 {
 }
 
 #contact button:hover {
-  background-color: #7be271;
+  background-color: #05B587;
 }
 
 h3 {
@@ -189,7 +189,7 @@ h3 {
 footer {
   height: 3em;
   width: 100%;
-  background-color: #48f5c1;
+  background-color: #10b593;
   margin-top: 3em;
 }
 
