@@ -21,6 +21,10 @@ input, textarea {
   padding: 1em;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navbar-brand {
   margin-right: 2.5em;
 }
@@ -168,10 +172,25 @@ h3 {
   margin-bottom: 1.5em;
 }
 
+.social {
+  float: right;
+  margin: 2em 0 0;
+}
+
+.social ul li {
+  display: inline;
+  margin-right: .5em;
+}
+
+.social img {
+  width: 45px;
+}
+
 footer {
   height: 3em;
   width: 100%;
   background-color: #48f5c1;
+  margin-top: 3em;
 }
 
 footer span {
