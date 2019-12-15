@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var phone = document.querySelector(".phone");
     var description = document.querySelector(".description");
     var date = document.querySelector(".date");
-    var submited = document.querySelector(".submited");
+    var submitted = document.querySelector(".submitted");
     var validate = document.querySelector(".errors");
     var slideIndex = 0;
     showSlides();
@@ -36,7 +36,9 @@ document.addEventListener('DOMContentLoaded', function(){
                     displayError.style.visibility = 'visible';
                 })
             } else {
-                submited.innerText = "Información enviada."
+                let contactForm = document.querySelector('#form');
+                contactForm.style.display = 'none';
+                submitted.innerText = "Su información ha sido enviada. En breve recibirá confirmación en su correo electrónico."
             }      
         })
     })

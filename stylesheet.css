@@ -172,6 +172,11 @@ h3 {
   margin-bottom: 1.5em;
 }
 
+.submitted {
+  text-align: center;
+  font-size: 1.3em;
+}
+
 .social {
   float: right;
   margin: 2em 0 0;
