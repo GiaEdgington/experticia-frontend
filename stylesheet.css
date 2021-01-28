@@ -64,7 +64,7 @@ h1 {
 }
 
 #nosotros {
-  column-count: 2;
+  column-count: 1;
   column-gap: 3em;
   margin: 0 3em;
   text-align: left;
